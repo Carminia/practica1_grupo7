@@ -5,3 +5,7 @@ public int potencia_al_cuadrado (double numero){
 public int raiz_cuadrada (double numero){
 	return Math.sqrt(numero);
 }
+
+public double potencia_al_cubo (double numero){
+	return numero * numero * numero;
+}
