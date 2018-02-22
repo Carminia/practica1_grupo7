@@ -1,3 +1,7 @@
 public int potencia_al_cuadrado (double numero){
 	return numero * numero;
 }
+
+public int raiz_cuadrada (double numero){
+	return Math.sqrt(numero);
+}
