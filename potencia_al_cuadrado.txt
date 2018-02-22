@@ -13,3 +13,14 @@ public double potencia_al_cubo (double numero){
 public double raiz_cubica(double numero){
 	return Math.pow(numero,1/3);
 }
+
+public double division(double numero, double numero2){
+	return numero/numero2;
+}
+
+
+
+public double multiplicacion(double numero, double numero2){
+	return numero * numero2;
+}
+
