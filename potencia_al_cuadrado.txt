@@ -9,3 +9,7 @@ public int raiz_cuadrada (double numero){
 public double potencia_al_cubo (double numero){
 	return numero * numero * numero;
 }
+
+public double raiz_cubica(double numero){
+	return Math.pow(numero,1/3);
+}
