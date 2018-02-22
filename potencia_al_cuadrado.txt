@@ -15,7 +15,12 @@ public double raiz_cubica(double numero){
 }
 
 public double division(double numero, double numero2){
-	return numero/numero2;
+  if(numero == 0){
+         return  throw new EmptyStackException();
+  }else{
+     	return numero/numero2;  
+  }
+
 }
 
 
